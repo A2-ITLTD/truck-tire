@@ -21,6 +21,7 @@ const Navbar = () => {
                     <ul className="flex gap-2 lg:gap-10 pb-2 md:pb-0">
                         <Link to="/" className="hover:text-[#1D24CA]">HOME</Link>
                         <Link  to="/About" className="hover:text-[#1D24CA]">ABOUT</Link>
+                        <Link  to="/About" className="hover:text-[#1D24CA]">WHEELS</Link>
                         <div className="dropdown">
                         <Link to="/Product" tabIndex={0} role="button" className="hover:text-[#1D24CA]">TIRES</Link>
                         <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-40 p-3 shadow flex flex-col gap-2">
