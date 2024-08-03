@@ -12,6 +12,8 @@ import About from './Components/About.jsx';
 import Contact from './Components/Contact.jsx';
 import Product from './Components/Product.jsx';
 import Details from './Components/Details.jsx';
+import WheelProduct from './Components/WheelProducts.jsx';
+import WheelDetails from './Components/WheelDetails.jsx';
 const router = createBrowserRouter([ 
   {
     path: "/",
@@ -35,8 +37,17 @@ const router = createBrowserRouter([
         loader : () => fetch('/tire.json'),
       },
       {
+        path: '/wheel/:id',
+        element: <WheelDetails></WheelDetails>,
+        loader : () => fetch('/wheel.json'),
+      },
+      {
         path: '/Product',
         element: <Product></Product>,
+      },
+      {
+        path: '/WheelProducts',
+        element: <WheelProduct></WheelProduct>,
       },
       
     ],

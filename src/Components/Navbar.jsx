@@ -21,21 +21,21 @@ const Navbar = () => {
                     <ul className="flex gap-2 lg:gap-10 pb-2 md:pb-0">
                         <Link to="/" className="hover:text-[#1D24CA]">HOME</Link>
                         <Link  to="/About" className="hover:text-[#1D24CA]">ABOUT</Link>
-                        <Link  to="/About" className="hover:text-[#1D24CA]">WHEELS</Link>
+                        <Link  to="/WheelProducts" className="hover:text-[#1D24CA]">WHEELS</Link>
                         <div className="dropdown">
                         <Link to="/Product" tabIndex={0} role="button" className="hover:text-[#1D24CA]">TIRES</Link>
                         <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-40 p-3 shadow flex flex-col gap-2">
-                            <Link className="hover:text-[#1D24CA]"><a>11R22.5</a></Link>
-                            <Link className="hover:text-[#1D24CA]"><a>295 60R22.5</a></Link>
-                            <Link className="hover:text-[#1D24CA]"><a>295 70R22.5</a></Link>
-                            <Link className="hover:text-[#1D24CA]"><a>295 80R22.5</a></Link>
-                            <Link className="hover:text-[#1D24CA]"><a>315 60R22.5</a></Link>
-                            <Link className="hover:text-[#1D24CA]"><a>315 70R22.5</a></Link>
-                            <Link className="hover:text-[#1D24CA]"><a>315 80R22.5</a></Link>
-                            <Link className="hover:text-[#1D24CA]"><a>385 55R22.5</a></Link>
-                            <Link className="hover:text-[#1D24CA]"><a>385 65R22.5</a></Link>
-                            <Link className="hover:text-[#1D24CA]"><a>385 50R19.5</a></Link>
-                            <Link className="hover:text-[#1D24CA]"><a>445 45R22.5</a></Link>
+                            <Link to={`/tire/1`} className="hover:text-[#1D24CA]"><a>11R22.5</a></Link>
+                            <Link to={`/tire/2`} className="hover:text-[#1D24CA]"><a>295 60R22.5</a></Link>
+                            <Link to={`/tire/3`} className="hover:text-[#1D24CA]"><a>295 70R22.5</a></Link>
+                            <Link to={`/tire/4`} className="hover:text-[#1D24CA]"><a>295 80R22.5</a></Link>
+                            <Link to={`/tire/5`} className="hover:text-[#1D24CA]"><a>315 60R22.5</a></Link>
+                            <Link to={`/tire/6`} className="hover:text-[#1D24CA]"><a>315 70R22.5</a></Link>
+                            <Link to={`/tire/7`} className="hover:text-[#1D24CA]"><a>315 80R22.5</a></Link>
+                            <Link to={`/tire/8`} className="hover:text-[#1D24CA]"><a>385 55R22.5</a></Link>
+                            <Link to={`/tire/9`} className="hover:text-[#1D24CA]"><a>385 65R22.5</a></Link>
+                            <Link to={`/tire/10`} className="hover:text-[#1D24CA]"><a>385 50R19.5</a></Link>
+                            <Link to={`/tire/11`} className="hover:text-[#1D24CA]"><a>445 45R22.5</a></Link>
                         </ul>
                         </div>
                         <Link to="/Contact" className="hover:text-[#1D24CA]">CONTACT</Link>

@@ -20,7 +20,7 @@ const Product = () => {
                             <img src={tire.image} alt={tire.model} className="w-full h-48 object-contain transition-transform duration-200 group-hover:scale-110" />
                         </div>
                         <h2 className="text-xl font-bold text-center mt-2">{tire.model}</h2>
-                        <p className="text-center text-gray-700">{tire.price} USD</p>
+                        <p className="text-center text-gray-700">{tire.Price} USD</p>
                         <div className="text-center mt-4">
                             <Link to={`/details/${tire.id}`} className="inline-block">
                                 <Link 
