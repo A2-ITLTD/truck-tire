@@ -14,7 +14,6 @@ import poster2 from "../Images/poster2.jpg";
 import poster3 from "../Images/poster3.jpg";
 import poster4 from "../Images/poster4.jpg";
 import track from "../Images/tire track.png";
-import track2 from "../Images/track2.png";
 import track3 from "../Images/track3.png";
 import tabbg from "../Images/tab-bg.jpg";
 import tabbg2 from "../Images/tab-bg2.jpg";
@@ -31,11 +30,15 @@ import { Link } from "react-router-dom";
 const Banner = () => {
 
     const [tires, setTires] = useState([])
+    const [wheels, setWheels] = useState([])
     useEffect(() =>{
             fetch('tire.json')
             .then(res => res.json())
             .then(data => setTires(data))
-    }, [setTires]);
+            fetch('wheel.json')
+            .then(res => res.json())
+            .then(data => setWheels(data))
+    }, [setTires, setWheels]);
 
     const chunkArray = (array, size) => {
         const chunkedArray = [];
@@ -45,7 +48,9 @@ const Banner = () => {
         return chunkedArray;
       };
     
-      const tireGroups = chunkArray(tires, 5);
+      const tireGroups = chunkArray(tires, 4);
+    
+      const wheelGroups = chunkArray(wheels, 4);
 
     return (
         <div>
@@ -237,6 +242,33 @@ const Banner = () => {
                         group.map((tire, idx) => (
                         <Link to={`/tire/${tire.id}`} className="relative w-44 h-full hover:scale-125 transform transition-transform duration-300" title={tire.model}>
                             <img src={tire.image} alt={tire.model} className="w-28 h-full"/>
+                        </Link>
+                        ))
+                        }
+                    </div>
+                    ))
+                    }
+                </Carousel>
+                </div>       
+            </section>
+
+            {/* Wheels */}
+            <section className="mt-28">
+                <div className="flex flex-row gap-10 px-5 md:px-10 lg:px-20 items-center">
+                    <div className="px-2 py-4 border-4 border-[#1D24CA] md:text-2xl lg:text-4xl uppercase font-extrabold text-[#1D24CA] w-full lg:w-2/3 text-center" >Wheels</div>
+                    <div className="w-full hidden md:inline">
+                        <hr className="border-2 border-[#1D242B] rounded-full" />
+                    </div>
+                </div>
+                <div className="mt-20 px-10 lg:px-20">
+                <Carousel showThumbs={false} autoPlay={true} infiniteLoop={true} showStatus={false} interval={3000}>
+                    {
+                    wheelGroups.map((group, index) => (
+                    <div key={index} className="flex  flex-col md:flex-row justify-evenly">
+                        {
+                        group.map((wheel, idx) => (
+                        <Link to={`/tire/${wheel.id}`} className="relative w-44 h-full hover:scale-125 transform transition-transform duration-300" title={wheel.model}>
+                            <img src={wheel.image} alt={wheel.name} className="w-28 h-full"/>
                         </Link>
                         ))
                         }

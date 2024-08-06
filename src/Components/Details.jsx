@@ -153,7 +153,7 @@ const Details = () => {
                     </div>
 
                     {/* table 2 */}
-                    <h1 className="text-xl font-semibold text-[#1D24CA]">Specifications</h1>
+                    <h1 className="text-xl font-semibold text-white">Specifications</h1>
                     <div className="overflow-x-auto ">
                         <table className="table border-2 border-zinc-300 bg-[#040404c1] text-white">
                             <tbody className="">
@@ -229,7 +229,7 @@ const Details = () => {
                 </div>
                 {/* form */}
                 <div className="p-5 md:p-8 h-fit shadow-lg text-left flex flex-col gap-5 bg-[#040404d7] text-white">
-                    <h1 className="text-xl font-semibold text-[#1D24CA]">Order here</h1>
+                    <h1 className="text-xl font-semibold text-white">Order here</h1>
                     <form onSubmit={handleOrder} className='flex flex-col w-full gap-5'>
                         <input type="text" name="user_name" placeholder='Name' className='py-1 px-5  border-[1px] border-zinc-400 bg-black text-base text-white' required />
                         <input 
