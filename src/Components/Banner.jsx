@@ -67,12 +67,12 @@ const Banner = () => {
                             <h1>Find Your Way to Our Store</h1>
                         </div>
                         <div className="flex flex-col md:flex-row md:gap-4 lg:gap-8">
-                            <div className="bg-white py-2 md:py-2 px-2 md:px-6 border-4 border-[#1D24CA] bg-opacity-70 flex items-center gap-2">
+                            <Link to="/Product" className="bg-white py-2 md:py-2 px-2 md:px-6 border-4 border-[#1D24CA] bg-opacity-70 flex items-center gap-2">
                                 <img src={tire} alt="tire" className="w-20 h-20" />
-                                BUY TIRES</div>
-                            <div className="bg-white py-2 md:py-2 px-2 md:px-6 border-4 border-[#1D24CA] bg-opacity-70 flex items-center gap-2">
+                                BUY TIRES</Link>
+                            <Link to="/WheelProducts" className="bg-white py-2 md:py-2 px-2 md:px-6 border-4 border-[#1D24CA] bg-opacity-70 flex items-center gap-2">
                                 <img src={tire} alt="tire" className="w-20 h-20" />
-                                BUY WHEELS</div>
+                                BUY WHEELS</Link>
                             <div className="bg-white py-2 md:py-2 px-2 md:px-6 border-4 border-[#1D24CA] bg-opacity-70 flex gap-3 items-center ">
                                 <img src={tire} alt="tire" className="w-20 h-20"  />
                                 <h1 className="flex flex-col items-center">PACKAGE <span>WHEELS AND TIRES</span></h1>

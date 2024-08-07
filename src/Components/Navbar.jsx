@@ -1,7 +1,8 @@
 import React from "react";
 import { RiAccountCircleFill } from "react-icons/ri";
 import { IoLogIn } from "react-icons/io5";
-import logo from "../Images/logo.png";
+// import logo from "../Images/logo.png";
+import logo from "../Images/trucktirelogo.png";
 import { Link } from "react-router-dom";
 const Navbar = () => {
     return (

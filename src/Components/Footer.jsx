@@ -1,4 +1,4 @@
-import logo from "../Images/logo-removebg.png";
+import logo from "../Images/trucktirelogo-removebg.png";
 import { FaGlobe } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaMapLocationDot } from "react-icons/fa6";
@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="flex flex-col md:flex-row items-start  justify-evenly gap-10 bg-[#1D24CA] p-8 md:py-10  md:px-10 lg:px-20">
                 <div className="flex flex-col gap-4 text-left">
                     <h1 className="text-white text-2xl font-extrabold uppercase">Why Online Tires ?</h1>
-                    <p className="text-white text-lg font-semibold">About Onlinetires.com</p>
+                    <p className="text-white text-lg font-semibold">About Trucktire.com</p>
                     <p className="text-white text-lg font-semibold">Privacy Policy</p>
                     <p className="text-white text-lg font-semibold">Terms and Conditions</p>
                 </div>
@@ -37,7 +37,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col md:flex-row items-start justify-evenly  gap-10 lg:gap-10 p-5 md:py-12 md:px-10 lg:px-24" >
                 <div className="flex flex-col gap-10">
-                    <div className="w-40 lg:w-52 md:pb-12">
+                    <div className="w-40 lg:w-72 md:pb-0">
                     <img src={logo} alt="logo" />
                     </div>
                     <h1 className="text-base md:text-xl font-extrabold uppercase">Connect with online tires</h1>
@@ -49,7 +49,7 @@ const Footer = () => {
                     </div>
                     <div className="py-8 hidden md:inline">
                         <hr className="border-2 border-slate-900 mb-4" />
-                        <h1 className=" text-base font-extrabold uppercase">© 2024 - Online Tires. All Rights Reserved</h1>
+                        <h1 className=" text-base font-extrabold uppercase">© 2024 - Truck Tire. All Rights Reserved</h1>
                     </div>
                 </div>
                 <div className="flex flex-col gap-3">

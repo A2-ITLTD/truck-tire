@@ -1,5 +1,5 @@
 import bannerbg5 from "../Images/bg-5.jpg";
-import logo from "../Images/logo.png";
+import logo from "../Images/trucktirelogo-removebg.png";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { FaPhoneSquareAlt } from "react-icons/fa";
