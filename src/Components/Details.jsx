@@ -52,11 +52,6 @@ const Details = () => {
         return <div>Error: Tire data not found</div>;
     }
 
-    const handleQuantityChange = (event) => {
-        const newQuantity = parseInt(event.target.value);
-        setQuantity(newQuantity);
-        setTotal(newTire.price * newQuantity);
-    };
 
     const handleOrder = e => {
         e.preventDefault();

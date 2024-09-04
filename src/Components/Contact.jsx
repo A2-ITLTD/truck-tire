@@ -5,6 +5,30 @@ import { MdMarkEmailUnread } from "react-icons/md";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
 const Contact = () => {
+
+    const handleOrder = (e) => {
+        e.preventDefault();
+        const name = e.target.elements.name.value;  // corrected
+        const email = e.target.elements.email.value;
+        const models = e.target.elements.models.value;
+        const brand = e.target.elements.brand.value;
+        const quantity = e.target.elements.quantity.value;
+        const message = e.target.elements.message.value;
+        
+        // send message to WhatsApp
+        const whatsappNumber = "+8801871733305";
+    
+        const url = "https://wa.me/" + whatsappNumber + "?text="
+            + "*Name :* " + name + "%0a"
+            + "*Email :* " + email + "%0a"
+            + "*Models :* " + models + "%0a"
+            + "*Brand :* " + brand + "%0a"
+            + "*Quantity :* " + quantity + "%0a"
+            + "*Message :* " + message + "%0a%0a";
+    
+        window.open(url, '_blank').focus();
+    };
+    
     return (
         <div>
             <div
@@ -29,13 +53,14 @@ const Contact = () => {
                 <div>
                     <h2 className="uppercase text-white  text-center font-extrabold text-2xl pb-4">Fill the Form</h2>
                 </div>
-                <form className="flex flex-col gap-4">
+                <form onSubmit={handleOrder} className="flex flex-col gap-4">
                     <div className="flex gap-8">
-                        <input type="text" className="block w-full mt-1 border border-gray-300 p-2 text-xl font-bold" placeholder="Full Name" />
-                        <input type="text"  className="block w-full mt-1 border border-gray-300 p-2 text-xl font-bold" placeholder="Email" />
+                        <input type="text" name="name" className="block w-full mt-1 border border-gray-300 p-2 text-xl font-bold" placeholder="Full Name" />
+                        <input type="email" name="email"  className="block w-full mt-1 border border-gray-300 p-2 text-xl font-bold" placeholder="Email" />
                     </div>
                     <div className="flex gap-8">
                         <select 
+                            name="models"
                             className="block w-full mt-1 border border-gray-300 p-2 text-xl font-bold"
                             
                         >
@@ -52,6 +77,7 @@ const Contact = () => {
                             <option value="11R22.5">11R22.5</option>
                         </select>
                         <select 
+                            name="brand"
                             className="block w-full mt-1 border border-gray-300 p-2 text-xl font-bold"
                             
                         >
@@ -63,15 +89,16 @@ const Contact = () => {
                         </select>
                     </div>
                     <div>
-                        <input type="text" className="block w-full mt-1 border border-gray-300 p-2 text-xl font-bold" placeholder="Quantity (300 piece/pieces min order)" min={100} max={600}/>
+                        <input type="number" name="quantity" className="block w-full mt-1 border border-gray-300 p-2 text-xl font-bold" placeholder="Quantity (300 piece/pieces min order)" min={100} max={600}/>
                     </div>
                     <div>
-                        <input type="text" className="block w-full mt-1 border border-gray-300 p-3 text-xl font-bold h-[7rem]"  placeholder="Type your message here: "/>
+                        <input type="text" name="message" className="block w-full mt-1 border border-gray-300 p-3 text-xl font-bold h-[7rem]"  placeholder="Type your message here: "/>
                     </div>
-                    <button className="uppercase text-center font-extrabold text-2xl bg-white p-2 text-[#1D24CA] hover:bg-slate-300">
+                    <button type="submit" value="submit" className="uppercase text-center font-extrabold text-2xl bg-white p-2 text-[#1D24CA] hover:bg-slate-300">
                         Submit
                     </button>
                 </form>
+            
             </div>
             </div>
             {/* company info */}
