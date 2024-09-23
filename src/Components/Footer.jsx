@@ -12,6 +12,7 @@ import brand4 from "../Images/brand4.png";
 import brand1 from "../Images/brand1.png";
 import { FaCcPaypal } from "react-icons/fa6";
 import { RiMastercardFill } from "react-icons/ri";
+import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <div className="mt-10 md:mt-28">
@@ -19,8 +20,8 @@ const Footer = () => {
                 <div className="flex flex-col gap-4 text-left">
                     <h1 className="text-white text-2xl font-extrabold uppercase">Why Online Tires ?</h1>
                     <p className="text-white text-lg font-semibold">About Trucktire.com</p>
-                    <p className="text-white text-lg font-semibold">Privacy Policy</p>
-                    <p className="text-white text-lg font-semibold">Terms and Conditions</p>
+                    <Link to="/privacy"><p className="text-white text-lg font-semibold">Privacy Policy</p></Link>
+                    <Link to="/privacy"><p className="text-white text-lg font-semibold">Terms and Conditions</p></Link>
                 </div>
                 <div className="flex flex-col gap-4 text-left">
                     <h1 className="text-white text-2xl font-extrabold uppercase">Support</h1>

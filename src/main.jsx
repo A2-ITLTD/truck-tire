@@ -14,6 +14,7 @@ import Product from './Components/Product.jsx';
 import Details from './Components/Details.jsx';
 import WheelProduct from './Components/WheelProducts.jsx';
 import WheelDetails from './Components/WheelDetails.jsx';
+import Privacy from './Components/Privacy.jsx';
 const router = createBrowserRouter([ 
   {
     path: "/",
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
       {
         path: '/WheelProducts',
         element: <WheelProduct></WheelProduct>,
+      },
+      {
+        path: '/privacy',
+        element: <Privacy></Privacy>,
       },
       
     ],
