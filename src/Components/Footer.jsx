@@ -31,9 +31,9 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col gap-4  text-left">
                     <h1 className="text-white text-2xl font-extrabold uppercase">Contact</h1>
-                    <p className="text-white text-lg font-semibold">+880 1846937397</p>
-                    <p className="text-white text-lg font-semibold">info@a2itbd.com</p>
-                    <p className="text-white text-lg font-semibold">a2itbd.com</p>
+                    <p className="text-white text-lg font-semibold">+1 226-212-5650</p>
+                    <p className="text-white text-lg font-semibold">info@cheaptireshopper.com</p>
+                    <p className="text-white text-lg font-semibold">cheaptireshopper.com</p>
                 </div>
             </div>
             <div className="flex flex-col md:flex-row items-start justify-evenly  gap-10 lg:gap-10 p-5 md:py-12 md:px-10 lg:px-24" >
@@ -50,7 +50,7 @@ const Footer = () => {
                     </div>
                     <div className="py-8 hidden md:inline">
                         <hr className="border-2 border-slate-900 mb-4" />
-                        <h1 className=" text-base font-extrabold uppercase">© 2024 - Truck Tire. All Rights Reserved</h1>
+                        <h1 className=" text-base font-extrabold uppercase">© 2024 - Truck Tire LLC. All Rights Reserved</h1>
                     </div>
                 </div>
                 <div className="flex flex-col gap-3">
@@ -79,7 +79,7 @@ const Footer = () => {
                 </div>
                 <div className="py-8 sm:inblock md:hidden">
                         <hr className="border-2 border-slate-900 mb-4" />
-                        <h1 className=" text-base font-extrabold uppercase">© 2024 - Online Tires. All Rights Reserved</h1>
+                        <h1 className=" text-base font-extrabold uppercase">© 2025 - Online Tires. All Rights Reserved</h1>
                 </div>
             </div>
         </div>
