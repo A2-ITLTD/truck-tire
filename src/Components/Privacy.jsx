@@ -14,10 +14,10 @@ const Privacy = () => {
                         <span className="text-red-600"><FaRegSquareFull /></span>Privacy Policy For Truck Tire
                     </h1>
                     <p className="text-base font-medium text-justify">
-                    Truck Tire Corporation recognizes the importance of protecting the privacy of users visiting trucktire.com. The information collected is utilized to enhance and market the services we and our subsidiaries offer, improve the content of the trucktire.com website, and provide updates or other marketing materials.
+                    Truck Tire Corporation recognizes the importance of protecting the privacy of users visiting cheaptireshopper.com. The information collected is utilized to enhance and market the services we and our subsidiaries offer, improve the content of the trucktire.com website, and provide updates or other marketing materials.
                     </p>
                     <p className="text-base font-medium text-justify">
-                    Certain sections of trucktire.com, including but not limited to the Tire Manager®, Tire Manager™ Lite, Tire InSight®, Truck Tire® Billing Online, Truck Tire® Global Trade Manager, and My Truck Tire®, require registration or a password for access. Information collected from registered users in these areas may also be used for marketing purposes. Cookies may be used in these sections and elsewhere, as outlined in this policy. Information obtained in these areas may also be utilized according to agreements governing access and use, such as Tire Manager at trucktire.com, among others.
+                    Certain sections of cheaptireshopper.com, including but not limited to the Tire Manager®, Tire Manager™ Lite, Tire InSight®, Truck Tire® Billing Online, Truck Tire® Global Trade Manager, and My Truck Tire®, require registration or a password for access. Information collected from registered users in these areas may also be used for marketing purposes. Cookies may be used in these sections and elsewhere, as outlined in this policy. Information obtained in these areas may also be utilized according to agreements governing access and use, such as Tire Manager at trucktire.com, among others.
                     </p>
                     <p className="text-base font-medium text-justify">
                     Please also review the Truck Tire Service Guide for terms of sale, limitations of liability, warranty disclaimers, and general terms applicable to all tire and wheel services, as well as various information associated with Truck Tire's services.
@@ -30,7 +30,7 @@ const Privacy = () => {
 
                     </h1>
                     <p className="text-base font-medium text-justify">
-                    The Truck Tire web server utilizes an extended log file format that records the date and time of visits, the referring address (the location from which a visitor arrives at trucktire.com), the type of Internet browser used, and the visitor's IP address (a unique number assigned to each computer connecting to the Internet for identification purposes). The log file does not capture the visitor's email address.
+                    The Truck Tire web server utilizes an extended log file format that records the date and time of visits, the referring address (the location from which a visitor arrives at cheaptireshopper.com), the type of Internet browser used, and the visitor's IP address (a unique number assigned to each computer connecting to the Internet for identification purposes). The log file does not capture the visitor's email address.
                     <br />
                     <br />
                     </p>
