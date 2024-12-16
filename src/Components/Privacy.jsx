@@ -14,10 +14,10 @@ const Privacy = () => {
                         <span className="text-red-600"><FaRegSquareFull /></span>Privacy Policy For Truck Tire
                     </h1>
                     <p className="text-base font-medium text-justify">
-                    Truck Tire Corporation recognizes the importance of protecting the privacy of users visiting cheaptireshopper.com. The information collected is utilized to enhance and market the services we and our subsidiaries offer, improve the content of the trucktire.com website, and provide updates or other marketing materials.
+                    Truck Tire Corporation recognizes the importance of protecting the privacy of users visiting cheaptireshopper.com. The information collected is utilized to enhance and market the services we and our subsidiaries offer, improve the content of the cheaptireshopper.com website, and provide updates or other marketing materials.
                     </p>
                     <p className="text-base font-medium text-justify">
-                    Certain sections of cheaptireshopper.com, including but not limited to the Tire Manager®, Tire Manager™ Lite, Tire InSight®, Truck Tire® Billing Online, Truck Tire® Global Trade Manager, and My Truck Tire®, require registration or a password for access. Information collected from registered users in these areas may also be used for marketing purposes. Cookies may be used in these sections and elsewhere, as outlined in this policy. Information obtained in these areas may also be utilized according to agreements governing access and use, such as Tire Manager at trucktire.com, among others.
+                    Certain sections of cheaptireshopper.com, including but not limited to the Tire Manager®, Tire Manager™ Lite, Tire InSight®, Truck Tire® Billing Online, Truck Tire® Global Trade Manager, and My Truck Tire®, require registration or a password for access. Information collected from registered users in these areas may also be used for marketing purposes. Cookies may be used in these sections and elsewhere, as outlined in this policy. Information obtained in these areas may also be utilized according to agreements governing access and use, such as Tire Manager at cheaptireshopper.com, among others.
                     </p>
                     <p className="text-base font-medium text-justify">
                     Please also review the Truck Tire Service Guide for terms of sale, limitations of liability, warranty disclaimers, and general terms applicable to all tire and wheel services, as well as various information associated with Truck Tire's services.
@@ -39,7 +39,7 @@ const Privacy = () => {
                         Does Truck Tire ask for personal information?
                     </h1>
                     <p className="text-base font-medium text-justify">
-                    Several sections of trucktire.com request personal information. These include Online Account Registration, features of Manage My Account, and registration pages for truck tire Manager at trucktire.com, trucktire Manager Lite, trucktire Global Trade Manager, trucktire InSight, and My trucktire. This list may be expanded without notice, and additional information may be required if it is. In these sections, your name, address, email address, billing information, and business profile may be requested. This information is gathered to help us enhance our services, provide you with access to valuable trucktire Internet-based tools and services, and to bill you for those services if you choose to use them.
+                    Several sections of cheaptireshopper.com request personal information. These include Online Account Registration, features of Manage My Account, and registration pages for truck tire Manager at cheaptireshopper.com, trucktire Manager Lite, trucktire Global Trade Manager, trucktire InSight, and My trucktire. This list may be expanded without notice, and additional information may be required if it is. In these sections, your name, address, email address, billing information, and business profile may be requested. This information is gathered to help us enhance our services, provide you with access to valuable trucktire Internet-based tools and services, and to bill you for those services if you choose to use them.
                     </p>
                     <h1 className="uppercase text-xl md:text-3xl font-extrabold flex items-center gap-6">
                         <span className="text-red-600"><FaRegSquareFull /></span>
@@ -53,7 +53,7 @@ const Privacy = () => {
                         Does Truck Tire use cookies?
                     </h1>
                     <p className="text-base font-medium text-justify">
-                    Cookies serve two primary purposes. First, they enable Truck Tire to personalize information for specific segments of its customer base. Second, in some cases, cookies allow Truck Tire to link individual customers with their information profiles. For instance, cookies allow TruckTire.com Login to "remember" your user ID when you log in to Truck Tire Manager at TruckTire.com on your computer.
+                    Cookies serve two primary purposes. First, they enable Truck Tire to personalize information for specific segments of its customer base. Second, in some cases, cookies allow Truck Tire to link individual customers with their information profiles. For instance, cookies allow cheaptireshopper.com Login to "remember" your user ID when you log in to Truck Tire Manager at cheaptireshopper.com on your computer.
                     </p>
                     <h1 className="uppercase text-xl md:text-3xl font-extrabold flex items-center gap-6">
                         <span className="text-red-600"><FaRegSquareFull /></span>
