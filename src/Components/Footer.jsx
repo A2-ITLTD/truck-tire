@@ -50,7 +50,7 @@ const Footer = () => {
                     </div>
                     <div className="py-8 hidden md:inline">
                         <hr className="border-2 border-slate-900 mb-4" />
-                        <h1 className=" text-base font-extrabold uppercase">© 2024 - Truck Tire LLC. All Rights Reserved</h1>
+                        <h1 className=" text-base font-extrabold uppercase">© 2024 - 2025 Truck Tire LLC. All Rights Reserved</h1>
                     </div>
                 </div>
                 <div className="flex flex-col gap-3">
