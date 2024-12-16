@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="flex flex-col md:flex-row items-start  justify-evenly gap-10 bg-[#1D24CA] p-8 md:py-10  md:px-10 lg:px-20">
                 <div className="flex flex-col gap-4 text-left">
                     <h1 className="text-white text-2xl font-extrabold uppercase">Why Online Tires ?</h1>
-                    <p className="text-white text-lg font-semibold">About Trucktire.com</p>
+                    <p className="text-white text-lg font-semibold">About Cheaptireshopper.com</p>
                     <Link to="/privacy"><p className="text-white text-lg font-semibold">Privacy Policy</p></Link>
                     <Link to="/privacy"><p className="text-white text-lg font-semibold">Terms and Conditions</p></Link>
                 </div>
@@ -56,8 +56,8 @@ const Footer = () => {
                 <div className="flex flex-col gap-3">
                     <FaMapLocationDot className="text-3xl md:text-5xl font-extrabold" />
                     <h1 className="text-xl font-extrabold uppercase">Location</h1>
-                    <h1 className="text-[#1D242B] text-xl  font-semibold">House-1/2 (2nd floor) Block - C/JHA Section-6,</h1>
-                    <h1 className="text-[#1D242B] text-xl  font-semibold">Dhaka, Bangladesh</h1>
+                    <h1 className="text-[#1D242B] text-xl  font-semibold">408 Violet Ave, Poughkeepsie, New York, NY,</h1>
+                    <h1 className="text-[#1D242B] text-xl  font-semibold">United States, 12601</h1>
                 </div>
                 <div className="flex flex-col gap-5 items-center text-center">
                     <h1 className=" text-xl font-extrabold uppercase">Payment Options</h1>
