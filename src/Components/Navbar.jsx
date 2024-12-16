@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className="bg-[#1D242B] text-white font-semibold text-xs md:text-base py-2  px-5 md:px-20 flex justify-center md:justify-end gap-5 md:gap-10 ">
                 <button className="flex items-center gap-1 md:gap-2 hover:text-[#dae155]"><RiAccountCircleFill /> Create Account</button>
                 <button className="flex items-center gap-1 md:gap-2 hover:text-[#dae155]"> <IoLogIn />Login</button>
-                <p className="hover:text-[#dae155]">Call or Text (+880 1846937397)</p>
+                <p className="hover:text-[#dae155]">Call or Text (+1 226-212-5650)</p>
             </div>
             {/* main navbar */}
             <div className="px-4 lg:px-20 py-2 md:py-3 text-sm lg:text-xl font-extrabold text-[#1D242B] flex flex-col gap-4 md:gap-0 md:flex-row justify-between items-center">
