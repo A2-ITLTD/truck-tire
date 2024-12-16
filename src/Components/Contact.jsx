@@ -16,9 +16,9 @@ const Contact = () => {
         const message = e.target.elements.message.value;
         
         // send message to WhatsApp
-        const whatsappNumber = "+8801871733305";
+        const whatsappNumber = "+1 226-212-5650";
     
-        const url = "https://wa.me/" + whatsappNumber + "?text="
+        const url = "https://wa.me/+12262125650" + whatsappNumber + "?text="
             + "*Name :* " + name + "%0a"
             + "*Email :* " + email + "%0a"
             + "*Models :* " + models + "%0a"
@@ -116,22 +116,22 @@ const Contact = () => {
                     <div className="flex flex-col gap-3">
                         <FaMapLocationDot className="text-[#1D24CA]  text-5xl font-extrabold" />
                         <h1 className="text-[#1D24CA]  text-2xl font-extrabold">Location</h1>
-                        <h1 className="text-[#1D242B] text-xl  font-semibold">House-1/2 (2nd floor) Block - C/JHA Section-6,</h1>
-                        <h1 className="text-[#1D242B] text-xl  font-semibold">Dhaka, Bangladesh</h1>
+                        <h1 className="text-[#1D242B] text-xl  font-semibold">408 Violet Ave, Poughkeepsie, New York, NY,</h1>
+                        <h1 className="text-[#1D242B] text-xl  font-semibold">United States, 12601</h1>
                     </div>
                     <div className="flex flex-col gap-3">
                         <h1 className="text-[#1D24CA]  text-2xl font-extrabold flex items-center gap-3">
                             <MdMarkEmailUnread className="text-[#1D24CA]  text-2xl font-extrabold" />
                             Email:   
-                            <span className="text-[#1D242B] text-xl  font-semibold"> info@a2itbd.com</span></h1>
+                            <span className="text-[#1D242B] text-xl  font-semibold"> info@cheaptireshopper.com</span></h1>
                         <h1 className="text-[#1D24CA]  text-2xl font-extrabold  flex items-center gap-3">
                             <FaPhoneSquareAlt className="text-[#1D24CA]  text-2xl font-extrabold" />
                             Phone: 
-                            <span className="text-[#1D242B] text-xl  font-semibold"> +880 1846937397</span></h1>
+                            <span className="text-[#1D242B] text-xl  font-semibold"> +1 226-212-5650</span></h1>
                         <h1 className="text-[#1D24CA]  text-2xl font-extrabold  flex items-center gap-3">
                             <FaGlobe className="text-[#1D24CA]  text-2xl font-extrabold" />
                             Website: 
-                            <span className="text-[#1D242B] text-xl  font-semibold"> a2itbd.com</span></h1>
+                            <span className="text-[#1D242B] text-xl  font-semibold"> cheaptireshopper.com</span></h1>
                     </div>
                 </div>
             </div>
