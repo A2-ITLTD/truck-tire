@@ -72,10 +72,10 @@ const WheelDetails = () => {
         const price = newJutes.Price;
         
         // send message to whatsapp
-        const whatsappNumber = "+8801871733305" 
+        const whatsappNumber = "+1 226-212-5650" 
 
 
-        var url = "https://wa.me/" + whatsappNumber + "?text="
+        var url = "https://wa.me/+12262125650" + whatsappNumber + "?text="
         + "*Name :* " + username + "%0a"
         + "*Number :* " + number + "%0a"
         + "*Email :* " + email + "%0a"
