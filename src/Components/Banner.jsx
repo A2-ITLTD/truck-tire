@@ -215,7 +215,7 @@ const Banner = () => {
                             <div className="flex flex-col gap-8 lg:pt-24">
                                 <h2 className="text-white md:text-2xl lg:text-5xl font-extrabold">Lowest Prices on Tires Guaranteed!</h2>
 
-                                <p className="text-white text-base font-extrabold text-justify lg:pr-96">At onlinetires.com, we’re dedicated to you. Our mission is to provide the best tire brands for your vehicle at unbeatable prices. We bypass middlemen and deal directly with manufacturers to guarantee you won’t overpay for top-quality, long-lasting tires. We handle the hard work so you can shop stress-free! Explore our selection knowing you’re getting the best prices available.</p>
+                                <p className="text-white text-base font-extrabold text-justify lg:pr-96">At cheaptireshopper.com, we’re dedicated to you. Our mission is to provide the best tire brands for your vehicle at unbeatable prices. We bypass middlemen and deal directly with manufacturers to guarantee you won’t overpay for top-quality, long-lasting tires. We handle the hard work so you can shop stress-free! Explore our selection knowing you’re getting the best prices available.</p>
 
                                 <h2 className="text-white md:text-2xl lg:text-4xl font-extrabold flex gap-2 items-center bg-[#1D24CA] p-3 w-fit">FIND YOUR NEW TIRES WITH A SINGLE CLICK! <FaArrowPointer /></h2>
                             </div> 
